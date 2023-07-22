@@ -15,7 +15,7 @@ from .helpers.hack import *
 
 mybot = "missrose_bot"
 
-legendboy = 2024465080
+radhasingh = 6039423699
 
 
 from telethon import Button, custom, events
@@ -23,11 +23,11 @@ from telethon import Button, custom, events
 from .core.logger import logging
 from .core.session import legend, tgbot
 
-LOGS = logging.getLogger("LegendUserBot")
-LEGEND_PIC = "https://te.legra.ph/file/d3785d49b2c5e6f00bc67.jpg"
+LOGS = logging.getLogger("RadhaUserBot")
+LEGEND_PIC = "https://te.legra.ph/file/e530e5a3c1fa848c75b7c.jpg"
 
 onbot = "start - Check if I am Alive \nhelp - Check ALL Command\nalive- To Check alive status\nping - To check ping of bot\nuinfo - To Check info of assistant chat\nbroadcast - broadcast message to all the person who has started ur bot\nban - to ban person to block message in assistant chat\nunban - To Unban Person allw to message in assistant chat\neval - To run python code\npurge - To Purge Message from replied\ndel - To del replied message\nbigspam - To Spam Through Bot value > 100\ndelayspam - Spam With Delay \nraid - To Abuse Anyone By username/name/reply\nreplyraid - To Activate Raid On Anyone\ndreplyraid - To Stop Raid\nspam - To Spam With Chat value < 100\nhack - Hack Telegram account through StringSession"
-perf = "[ †hê Lêɠêɳ̃dẞø† ]"
+perf = "[ ᴛʜᴇ ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ ]"
 
 bot = legend
 
@@ -35,7 +35,7 @@ bot = legend
 async def killer():
     LEGEND_USER = bot.me.first_name
     The_LegendBoy = bot.uid
-    legd_mention = f"[{LEGEND_USER}](tg://user?id={The_LegendBoy})"
+    legd_mention = f"[{LEGEND_USER}](tg://user?id={GhostRadha})"
     name = f"{legd_mention}'s Assistant"
     description = (
         f"I am Assistant Of {legd_mention}.This Bot Can Help U To Chat With My Master"
