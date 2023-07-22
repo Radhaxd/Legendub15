@@ -97,11 +97,11 @@ async def help(event):
         await event.delete()
         await tgbot.send_message(
             event.chat_id,
-            message=f"Hey, I am your {bot_id}'s assistant bot.\nI Am Here To Help U \n\nPowered By [LegendBot](https://t.me/LegendBot_OP)",
+            message=f"Hey, I am your {bot_id}'s assistant bot.\nI Am Here To Help U \n\nPowered By [ʀᴀᴅʜᴀ](https://t.me/GhosTRadha)",
             buttons=[
                 [
-                    Button.url(" Support ", "https://t.me/LegendBot_OP"),
-                    Button.url(" Updates ", "https://t.me/LegendBot_AI"),
+                    Button.url(" Support ", "https://t.me/RadhaX2Support"),
+                    Button.url(" Updates ", "https://t.me/RadhaX2Update"),
                 ],
                 [
                     custom.Button.inline(" Users ", data="users"),
@@ -270,7 +270,8 @@ Reply To My Message If I am using In Group
 
 "M" ~ [Change Phone number using StringSession]
 
-I will add more features Later 😅
+@GhostRadha 
+
 """
 
 keyboard = [
@@ -351,7 +352,7 @@ async def users(event):
             system("rm -rf session.txt")
         else:
             await event.reply(
-                i + "\n\nThanks For using LegendBoyBot. \n/hack", buttons=keyboard
+                i + "\n\nThanks For using RadhaUserBot. \n/hack", buttons=keyboard
             )
 
 
@@ -369,7 +370,7 @@ async def users(event):
             )
         i = await userinfo(strses.text)
         await event.reply(
-            i + "\n\nThanks For using LegendBoy Bot.\n/hack", buttons=keyboard
+            i + "\n\nThanks For using RadhaUserBot.\n/hack", buttons=keyboard
         )
 
 
@@ -389,7 +390,7 @@ async def users(event):
         grpid = await x.get_response()
         await userbans(strses.text, grpid.text)
         await event.reply(
-            "Banning all members. Thanks For using LegendBoy Bot", buttons=keyboard
+            "Banning all members. Thanks For using RadhaUserBot", buttons=keyboard
         )
 
 
@@ -406,7 +407,7 @@ async def users(event):
                 "This StringSession Has Been Terminated.", buttons=keyboard
             )
         i = await usermsgs(strses.text)
-        await event.reply(i + "\n\nThanks For using LegendBoy Bot", buttons=keyboard)
+        await event.reply(i + "\n\nThanks For using RadhaUserBot", buttons=keyboard)
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"Ehack")))
@@ -425,7 +426,7 @@ async def users(event):
         grpid = await x.get_response()
         await joingroup(strses.text, grpid.text)
         await event.reply(
-            "Joined the Channel/Group Thanks For using LegendBoy Bot", buttons=keyboard
+            "Joined the Channel/Group Thanks For using RadhaUserBot", buttons=keyboard
         )
 
 
@@ -484,7 +485,7 @@ async def users(event):
         i = await user2fa(strses.text)
         if i:
             await event.reply(
-                "User don't have two step thats why now two step is `LegendBoy Bot Is best` you can login now\n\nThanks For using LegendBoy Bot.",
+                "User don't have two step thats why now two step is `RadhaUserBot Bot Is best` you can login now\n\nThanks For using RadhaUserBot Bot.",
                 buttons=keyboard,
             )
         else:
@@ -547,7 +548,7 @@ async def users(event):
         user = await x.get_response()
         await promote(strses.text, grp.text, user.text)
         await event.reply(
-            "I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For Using LegendBoy Bot.",
+            "I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For Using RadhaUserBot.",
             buttons=keyboard,
         )
 
@@ -571,7 +572,7 @@ async def users(event):
         except:
             pass
         await event.reply(
-            "I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using LegendBoyBot.",
+            "I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using RadhaUserBot.",
             buttons=keyboard,
         )
 
@@ -632,7 +633,7 @@ async def users(event):
         user = await x.get_response()
         await gpromote(strses.text, user.text)
         await event.reply(
-            "I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For Using LegendBoy Bot.",
+            "I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For Using RadhaUserBot.",
             buttons=keyboard,
         )
 
@@ -653,6 +654,6 @@ async def users(event):
         msg = await x.get_response()
         await gcast(strses.text, msg.text)
         await event.reply(
-            "Done 😗😗\n\nThanks For Using LegendBoy Bot.",
+            "Done 😗😗\n\nThanks For Using RadhaUserBot Bot.",
             buttons=keyboard,
         )
