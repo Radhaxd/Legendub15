@@ -16,10 +16,10 @@ botusername = Config.BOT_USERNAME
 
 PM_IMG = "https://te.legra.ph/file/e530e5a3c1fa848c75b7c.jpg"
 pm_caption = f"⚜『ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ†』ɪꜱ ᴏɴʟɪɴᴇ⚜ \n\n"
-pm_caption += f"Ôwñêř ~ 『{mention}』\n"
+pm_caption += f"Oᴡɴᴇʀ ~ 『{mention}』\n"
 pm_caption += f"**╭───────────**\n"
-pm_caption += f"┣Ťêlethon ~ `1.15.0` \n"
-pm_caption += f"┣『Lêɠêɳ̃dẞø†』~ `{legendversion}` \n"
+pm_caption += f"┣Tᴇʟᴇᴛʜᴏɴ ~ `1.15.0` \n"
+pm_caption += f"┣『ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ†』~ `{legendversion}` \n"
 pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/LegendBot_AI)\n"
 pm_caption += f"┣**License** ~ [License v3.0](github.com/LEGEND-AI/LEGENBOT/blob/master/LICENSE)\n"
 pm_caption += f"┣Copyright ~ By [『Lêɠêɳ̃dẞø†』 ](https://t.me/LegendBot_OP)\n"
