@@ -97,7 +97,7 @@ async def bot_start(event):
                     Button.inline("Rules 😒", data="rules"),
                     Button.inline("Deploy ⚡", data="depy"),
                 ),
-                (Button.url("Support ❤️", "https://t.me/LegendBot_OP"),),
+                (Button.url("Support ❤️", "https://t.me/RadhaX2Support"),),
             ]
             start_msg = customstrmsg.format(
                 mention=mention,
@@ -113,20 +113,20 @@ async def bot_start(event):
                 my_mention=my_mention,
             )
         else:
-            start_msg = f"Hey! 👤{mention},\nI am {my_mention}'s assistant bot.\nYou can contact to my master from here.\n\nPowered by [LegendBot](https://t.me/LegendBot_OP)"
+            start_msg = f"Hey! 👤{mention},\nI am {my_mention}'s assistant bot.\nYou can contact to my master from here.\n\nPowered by [RadhaUserBot](https://t.me/RadhaX2Support)"
             buttons = [
                 (
                     Button.inline("Rules 😒", data="rules"),
                     Button.inline("Deploy ⚡", data="depy"),
                 ),
-                (Button.url("Support ❤️", "https://t.me/LegendBot_OP"),),
+                (Button.url("Support ❤️", "https://t.me/RadhaX2Support"),),
             ]
     else:
         start_msg = f"Hey {mention} I am your {my_mention}'s assistant bot.\nI Am Here To Help U \n\nPowered By [LegendBot](https://t.me/LegendBot_OP)"
         buttons = [
             (
-                Button.url(" Support ", "https://t.me/LegendBot_OP"),
-                Button.url(" Updates ", "https://t.me/LegendBot_AI"),
+                Button.url(" Support ", "https://t.me/RadhaX2Support"),
+                Button.url(" Updates ", "https://t.me/RadhaX2Update"),
             ),
             (
                 Button.inline(" Users ", data="users"),
@@ -207,7 +207,7 @@ async def help(event):
     else:
         await event.client.send_message(
             event.chat_id,
-            message="You Can Deploy/Install LegendBot In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
+            message="You Can Deploy/Install RadhaUserBot In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
             link_preview=False,
             buttons=[
                 [
