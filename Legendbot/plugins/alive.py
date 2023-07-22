@@ -79,7 +79,7 @@ temp = {ALIVE_TEXT}
 **{EMOTES} Master:** {mention}
 **{EMOTES} Uptime :** `{uptime}`
 **{EMOTES} Telethon Version :** `{telever}`
-**{EMOTES} Legenduserbot Version :** `{legendver}`
+**{EMOTES} RadhaUserBot Version :** `{legendver}`
 **{EMOTES} Python Version :** `{pyver}`
 **{EMOTES} Database :** `{dbhealth}`
 """
@@ -122,13 +122,13 @@ file3 = "https://te.legra.ph/file/79983417d1eec823100dc.jpg"
 file4 = "https://te.legra.ph/file/604164582de2704238d3d.mp4"
 file5 = "https://te.legra.ph/file/95643ea0976f9298452cf.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = f"**LegendBot Is Up**\n"
+pm_caption = f"**RadhaUserBot Is Up**\n"
 pm_caption += f"**╭────────────**\n"
 pm_caption += f"┣»»»『{mention}』«««\n"
-pm_caption += f"┣Lêɠêɳ̃dẞø† ~ {legendversion}\n"
-pm_caption += f"┣Lêɠêɳ̃d  ~ [Owner](https://t.me/Legend_K_Boy)\n"
-pm_caption += f"┣Support ~ [G𝖗ουρ](https://t.me/LegendBot_OP)\n"
-pm_caption += f"┣Řepô    ~ [Rєρο](https://github.com/LEGEND-AI/LEGENDBOT)\n"
+pm_caption += f"┣ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ ~ {legendversion}\n"
+pm_caption += f"┣ʀᴀᴅʜᴀ  ~ [Owner](https://t.me/GhostRadha)\n"
+pm_caption += f"┣Support ~ [G𝖗ουρ](https://t.me/RadhaX2Support)\n"
+pm_caption += f"┣ʀᴇᴩᴏ    ~ [ʀᴇᴩᴏ](https://github.com/RADHAK8/RADHAXUSERBOT)\n"
 pm_caption += f"**╰────────────**\n"
 
 
