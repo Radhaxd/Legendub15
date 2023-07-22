@@ -14,8 +14,8 @@ menu_category = "bot"
 botusername = Config.BOT_USERNAME
 
 
-PM_IMG = "https://telegra.ph/file/c26fc61e904476083baa7.jpg"
-pm_caption = f"⚜『Lêɠêɳ̃dẞø†』Is Ôñĺîne⚜ \n\n"
+PM_IMG = "https://te.legra.ph/file/e530e5a3c1fa848c75b7c.jpg"
+pm_caption = f"⚜『ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ†』ɪꜱ ᴏɴʟɪɴᴇ⚜ \n\n"
 pm_caption += f"Ôwñêř ~ 『{mention}』\n"
 pm_caption += f"**╭───────────**\n"
 pm_caption += f"┣Ťêlethon ~ `1.15.0` \n"
