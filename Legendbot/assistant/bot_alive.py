@@ -20,12 +20,12 @@ pm_caption += f"Oᴡɴᴇʀ ~ 『{mention}』\n"
 pm_caption += f"**╭───────────**\n"
 pm_caption += f"┣Tᴇʟᴇᴛʜᴏɴ ~ `1.15.0` \n"
 pm_caption += f"┣『ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ†』~ `{legendversion}` \n"
-pm_caption += f"┣Çhâññel ~ [Channel](https://t.me/RadhaX2Update)\n"
+pm_caption += f"┣ᴄʜᴀɴɴᴇʟ ~ [Channel](https://t.me/RadhaX2Update)\n"
 pm_caption += f"┣**License** ~ [License v3.0](github.com/LEGEND-AI/LEGENBOT/blob/master/LICENSE)\n"
-pm_caption += f"┣Copyright ~ By [『Lêɠêɳ̃dẞø†』 ](https://t.me/RadhaX2Support)\n"
-pm_caption += f"┣Assistant ~ By [『Lêɠêɳ̃dẞøy』 ](https://t.me/LegendBoy_XD)\n"
+pm_caption += f"┣Copyright ~ By [『ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ』 ](https://t.me/RadhaX2Support)\n"
+pm_caption += f"┣Assistant ~ By [『ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ』 ](https://t.me/GhostRadha)\n"
 pm_caption += f"╰────────────\n"
-pm_caption += f"       »»» [『Lêɠêɳ̃dẞø†』](https://t.me/LegendBot_XD) «««"
+pm_caption += f"       »»» [『ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ』](https://t.me/GhostRadha) «««"
 
 
 @legend.bot_cmd(
@@ -39,7 +39,7 @@ async def bot_start(event):
         return
     reply_to = await reply_id(event)
     buttons = [
-        (Button.url("🔱 Repo 🔱", "https://github.com/LEGEND-AI/LEGENDBOT"),),
+        (Button.url("ʀᴇᴩᴏ ⚡", "https://github.com/RADHAK8/RADHA-USERBOT"),),
     ]
     try:
         await event.client.send_file(
