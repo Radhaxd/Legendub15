@@ -44,7 +44,7 @@ def get_key(val):
     },
 )
 async def chat_blacklist(event):
-    "To enable or disable sudo of your LegendUserBot."
+    "To enable or disable sudo of your RadhaUserBot."
     input_str = event.pattern_match.group(1)
     sudousers = _sudousers_list()
     if input_str == "on":
@@ -273,7 +273,7 @@ async def _(event):  # sourcery no-metrics
         for plugin in input_str:
             if plugin not in PLG_INFO:
                 errors += (
-                    f"`{plugin}` __There is no such plugin in your LegendUserBot__.\n"
+                    f"`{plugin}` __There is no such plugin in your RadhaUserBot__.\n"
                 )
             else:
                 loadcmds += PLG_INFO[plugin]
@@ -362,7 +362,7 @@ async def _(event):  # sourcery no-metrics
         for plugin in input_str:
             if plugin not in PLG_INFO:
                 errors += (
-                    f"`{plugin}` __There is no such plugin in your LegendUserBot__.\n"
+                    f"`{plugin}` __There is no such plugin in your RadhaUserBot__.\n"
                 )
             else:
                 typecmds += PLG_INFO[plugin]
@@ -372,7 +372,7 @@ async def _(event):  # sourcery no-metrics
         for cmd in input_str:
             if cmd not in CMD_INFO:
                 errors += (
-                    f"`{cmd}` __There is no such command in your LegendUserBot__.\n"
+                    f"`{cmd}` __There is no such command in your RadhaUserBot__.\n"
                 )
             elif cmd not in sudocmds:
                 errors += f"`{cmd}` __Is already disabled for sudo users__.\n"
