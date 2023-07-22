@@ -211,11 +211,11 @@ async def help(event):
             link_preview=False,
             buttons=[
                 [
-                    Button.url("Tutorial", "https://youtu.be/9CtOErUFmrQ"),
+                    Button.url("Support ❤️", "https://t.me/RadhaX2Support"),
                 ],
                 [
                     Button.url(
-                        "Github Repo ❓", "https://github.com/LEGEND-AI/LEGENDBOT"
+                        "Github Repo ❓", "https://github.com/RADHAK8/RADHA-USERBOT"
                     ),
                 ],
             ],
