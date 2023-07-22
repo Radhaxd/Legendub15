@@ -97,7 +97,7 @@ async def safe_check_text(msg):  # sourcery no-metrics
     phone = str((await legend.get_entity(legend.uid)).phone)
     return bool(
         (
-            (Config.LEGEND_STRING in msg)
+            (Config.RADHA_STRING in msg)
             or (phone[-10:] in msg)
             or (Config.API_HASH in msg)
             or (Config.BOT_TOKEN in msg)
@@ -215,7 +215,7 @@ async def send_message(
                 comment_to=comment_to,
             )
         msglink = await client.get_msg_link(response)
-        msg = f"**Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of LegendBot Group [admin](https://t.me/LegendBot_OP). & Dont Try To Send Any Information Without Knowing Anything.** ▶️ [Logger group]({msglink})"
+        msg = f"**Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of RadhaUserBot Group [admin](https://t.me/RadhaX2Support). & Dont Try To Send Any Information Without Knowing Anything.** ▶️ [Logger group]({msglink})"
         return await client.sendmessage(
             entity=chatid,
             message=msg,
@@ -368,7 +368,7 @@ async def send_file(
                 **kwargs,
             )
         msglink = await client.get_msg_link(response)
-        msg = f"**Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of LegendBot Group [admin](https://t.me/LegendBot_OP). & Dont Try To Send Any Information Without Knowing Anything.** ▶️ [Logger group]({msglink})"
+        msg = f"**Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of RadhaUserBot Group [admin](https://t.me/RadhaX2Support). & Dont Try To Send Any Information Without Knowing Anything.** ▶️ [Logger group]({msglink})"
         return await client.sendmessage(
             entity=chatid,
             message=msg,
@@ -467,7 +467,7 @@ async def edit_message(
                 schedule=schedule,
             )
         msglink = await client.get_msg_link(response)
-        msg = f"**Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of LegendBot Group [admin](https://t.me/LegendBot_OP). & Dont Try To Send Any Information Without Knowing Anything.** ▶️ [Logger group]({msglink})"
+        msg = f"**Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of RadhaUserBot Group [admin](https://t.me/RadhaX2Support). & Dont Try To Send Any Information Without Knowing Anything.** ▶️ [Logger group]({msglink})"
         return await client.editmessage(
             entity=chatid,
             message=message,
