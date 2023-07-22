@@ -173,8 +173,8 @@ class LegendClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**LegendBot Error report**\n\n"
-                        link = "[here](https://t.me/LegendBot_OP)"
+                        text = "**RadhaUserBot Error report**\n\n"
+                        link = "[here](https://t.me/RadhaX2Support)"
                         text += "If you wanna you can report it"
                         text += f"- just forward this message {link}.\n"
                         text += (
@@ -292,8 +292,8 @@ class LegendClient(TelegramClient):
                         pastelink = await paste_message(
                             ftext, pastetype="s", markdown=False
                         )
-                        text = "**LegendBot Error report**\n\n"
-                        link = "[here](https://t.me/LegendBot_OP)"
+                        text = "**RadhaUserBot Error report**\n\n"
+                        link = "[here](https://t.me/RadhaX2Support)"
                         text += "If U Want To Report This Error Then"
                         text += f"- just forward this message {link}.\n"
                         text += (
