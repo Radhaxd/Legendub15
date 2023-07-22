@@ -165,6 +165,6 @@ async def _(event):
             f"**✓ Uploaded to :-** [telegraph]({legend})\
                  \n**✓ Uploaded in {ms} seconds.**\
                  \n**✓ Uploaded by :-** {mention}\
-                 \n**✓ Telegraph :-** `{legend}`",
+                 \n**✓ Telegraph :-** `{ʀᴀᴅʜᴀ}`",
             link_preview=True,
         )
