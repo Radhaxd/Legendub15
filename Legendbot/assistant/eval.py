@@ -42,7 +42,7 @@ async def bo_ll(event):
         "DeleteAccountRequest",
     ):
         return await event.reply(
-            "Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of [LegendBot](https://t.me/LegendBot_AI) Group admin. & Dont Try To Send Any Information Without Knowing Anything."
+            "Sorry, This Is Sensitive Data I Cant Send It To Public.& Reported to Admin Of [RadhaUserBot](https://t.me/RadhaX2Update) Group admin. & Dont Try To Send Any Information Without Knowing Anything."
         )
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
