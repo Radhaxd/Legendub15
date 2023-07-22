@@ -26,13 +26,13 @@ menu_category = "utils"
 
 
 @legend.legend_cmd(
-    pattern="legend$",
-    command=("legend", menu_category),
+    pattern="radha$",
+    command=("radha", menu_category),
     info={
         "header": "To check bot's alive status",
         "options": "To show media in this cmd you need to set ALIVE_PIC with media link, get this by replying the media by .tgm",
         "usage": [
-            "{tr}legend",
+            "{tr}radha",
         ],
     },
 )
@@ -50,7 +50,7 @@ async def amireallyalive(event):
     lal = list(EMOJI.split())
     EMOTES = random.choice(lal)
     sweetie_caption = (
-        "**⚜ LegendBot Is Online ⚜**\n\n" + f"{gvarstatus('ALIVE_TEMPLATE')}"
+        "**⚜ RadhaUserBot Is Online ⚜**\n\n" + f"{gvarstatus('ALIVE_TEMPLATE')}"
     )
     caption = sweetie_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
@@ -70,7 +70,7 @@ async def amireallyalive(event):
     except (WebpageMediaEmptyError, MediaEmptyError, WebpageCurlFailedError):
         return await eor(
             legendevent,
-            f"**Media Value Error!!**\n__Change the link by __`.setdv`\n\n**__Can't get media from this link :-**__ `{LEGEND_IMG}`",
+            f"**Media Value Error!!**\n__Change the link by __`.setdv`\n\n**__Can't get media from this link :-**__ `{RADHA_IMG}`",
         )
 
 
@@ -103,9 +103,9 @@ async def amireallyalive(event):
     a = gvarstatus("ALIVE_EMOJI") or "✥"
     kiss = list(a.split())
     EMOJI = random.choice(kiss)
-    legend_caption = "**LegendBot Is Online**\n\n"
+    legend_caption = "**RadhaUserBot Is Online**\n\n"
     legend_caption += f"**{EMOJI} Telethon version :** `{version.__version__}\n`"
-    legend_caption += f"**{EMOJI} Legenduserbot Version :** `{legendversion}`\n"
+    legend_caption += f"**{EMOJI} RadhaUserBot Version :** `{legendversion}`\n"
     legend_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
     legend_caption += f"**{EMOJI} Uptime :** {uptime}\n"
     legend_caption += f"**{EMOJI} Master:** {mention}\n"
