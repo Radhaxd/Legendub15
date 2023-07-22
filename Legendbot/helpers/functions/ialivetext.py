@@ -89,7 +89,7 @@ async def legendalive(StartTime):
             dyno = "VPS"
     except Exception as e:
         dyno = e
-    return f"꧁ LegendBot Stats ꧂\
+    return f"꧁ RadhaUserBot Stats ꧂\
                  \n\n༄ Database : {check_sgnirts}\
                   \n༄ Sudo : {sudo}\
                   \n༄ Uptime : {uptime}\
