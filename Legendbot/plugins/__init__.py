@@ -60,18 +60,18 @@ ban_pic = "./Legendbot/helpers/resources/pics/ban.jpg"
 
 
 # channel
-my_channel = Config.YOUR_CHANNEL or "LegendBot_OP"
-my_group = Config.YOUR_GROUP or "LegendBot_AI"
+my_channel = Config.YOUR_CHANNEL or "RadhaX2Support"
+my_group = Config.YOUR_GROUP or "RadhaX2Update"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
     my_group = my_group.replace("@", "")
 
 # My Channel
-chnl_link = "https://t.me/LegendBot_AI"
-Legend_channel = f"[Lêɠêɳ̃dẞø† ]({chnl_link})"
-grp_link = "https://t.me/LegendBot_OP"
-Legend_grp = f"[Lêɠêɳ̃dẞø† ]({grp_link})"
+chnl_link = "https://t.me/RadhaX2Update"
+Radha_channel = f"[ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ ]({chnl_link})"
+grp_link = "https://t.me/RadhaX2Support"
+Legend_grp = f"[ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ ]({grp_link})"
 
 
 PM_START = []
