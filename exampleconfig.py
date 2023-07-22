@@ -6,7 +6,7 @@ class Development(Config):
     APP_ID = 25769451
     API_HASH = ""
     # the name to display in your alive message
-    ALIVE_NAME = "LegendBoy"
+    ALIVE_NAME = "RadhaUserBot"
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
     DB_URI = ""
     # After cloning the repo and installing requirements do python3 telesetup.py an fill th this
