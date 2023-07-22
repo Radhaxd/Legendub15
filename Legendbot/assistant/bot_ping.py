@@ -30,12 +30,12 @@ async def bot_start(event):
     buttons = [(Button.url("ʀᴀᴅʜᴀᴜꜱᴇʀʙᴏᴛ ⚡", "https://t.me/RadhaX2Support"))]
     PM_IMG = (
         gvarstatus("BOT_PING_PIC")
-        or "https://telegra.ph/file/5c898421fdef6f53aab0a.jpg"
+        or "https://te.legra.ph/file/e530e5a3c1fa848c75b7c.jpg"
     )
     start = datetime.now()
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    pm_caption = f"**꧁•⊹٭Ping٭⊹•꧂**\n\n   ⚜ {ms}\n   ⚜ ❝𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫❞ ~『{mention}』"
+    pm_caption = f"**꧁•⊹٭Ping٭⊹•꧂**\n\n   ⚜ {ms}\n   ⚜ ❝ᴍy ᴍᴀꜱᴛᴇʀ❞ ~『{mention}』"
     try:
         await event.client.send_file(
             chat.id,
