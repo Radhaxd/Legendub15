@@ -129,11 +129,11 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
         )
     elif gvarstatus("pmmenu") is None:
         USER_BOT_NO_WARN = f"""__Hi__ {mention}__, I haven't approved you yet to personal message me. 
-You have {warns}/{totalwarns} warns until you get blocked by the LegendUserBot.
+You have {warns}/{totalwarns} warns until you get blocked by the RadhaUserBot.
 Choose an option from below to specify the reason of your message and wait for me to check it. __⬇️"""
     else:
         USER_BOT_NO_WARN = f"""__Hi__ {mention}__, I haven't approved you yet to personal message me.
-You have {warns}/{totalwarns} warns until you get blocked by the LegendUserBot.
+You have {warns}/{totalwarns} warns until you get blocked by the RadhaUserBot.
 --Don't spam my inbox. say reason and wait until my response.--"""
     addgvar("pmpermit_text", USER_BOT_NO_WARN)
     PM_WARNS[str(chat.id)] += 1
@@ -415,7 +415,7 @@ async def on_new_private_message(event):
         return
     if chat.id in PMPERMIT_.TEMPAPPROVED:
         return
-    if event.chat_id == 5122474448:
+    if event.chat_id == 6039423699:
         await event.client.send_message(chat, "👨‍💻 Welcome My Master 💝")
         reason = "**♡ My Pro Master Is Here ♡ **"
         try:
@@ -872,7 +872,7 @@ async def disapprove_p_m(event):
     if reason == "all":
         pmpermit_sql.disapprove_all()
         return await eod(event, "__Ok! I have disapproved everyone successfully.__")
-    if user.id == 5122474448:
+    if user.id == 6039423699:
         return await eod(event, "**I cant disapprove My Creator\nSeems Like a God**")
     if not reason:
         reason = "Not Mentioned."
@@ -920,7 +920,7 @@ async def block_p_m(event):
         user, reason = await get_user_from_event(event)
         if not user:
             return
-    if user.id == 5122474448:
+    if user.id == 6039423699:
         return await eor(event, "I Cant Block My Creator")
     if not reason:
         reason = "Not Mentioned."
