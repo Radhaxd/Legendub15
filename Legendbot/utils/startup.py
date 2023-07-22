@@ -25,7 +25,7 @@ from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
 
-LOGS = logging.getLogger("LegendUserBot")
+LOGS = logging.getLogger("RadhaUserBot")
 cmdhr = Config.HANDLER
 
 
@@ -37,7 +37,7 @@ elif os.path.exists("config.py"):
 
 async def setup_bot():
     """
-    To set up bot for Legendbot
+    To set up bot for RadhaUserBot
     """
     try:
         await legend.connect()
@@ -72,9 +72,9 @@ async def startupmessage():
         if BOTLOG:
             Config.LEGENDUBLOGO = await legend.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/294b4dbdb74334fb0a8c1.jpg",
-                caption=f"#START\n\n**__Version__**:- {legendversion}\n\n**__Sudo__** :- {is_sudo}\n\n**Your LegendBot has been started successfully.**",
-                buttons=[(Button.url("Support", "https://t.me/LegendBot_XD"),)],
+                "https://te.legra.ph/file/e530e5a3c1fa848c75b7c.jpg",
+                caption=f"#START\n\n**__Version__**:- {legendversion}\n\n**__Sudo__** :- {is_sudo}\n\n**Your RadhaUserBot has been started successfully.**",
+                buttons=[(Button.url("Support", "https://t.me/RadhaX2Support"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -200,11 +200,11 @@ async def hekp():
     except Exception as e:
         print(str(e))
     try:
-        await legend(JoinChannelRequest("@LegendBot_OP"))
+        await legend(JoinChannelRequest("@RadhaX2Support"))
     except BaseException:
         pass
     try:
-        await legend(JoinChannelRequest("@LegendBot_AI"))
+        await legend(JoinChannelRequest("@RadhaX2Update"))
     except BaseException:
         pass
 
@@ -253,9 +253,9 @@ async def verifyLoggerGroup():
                 + str(e)
             )
     else:
-        descript = "A Logger Group For LegendBot.Don't delete this group or change to group(If you change group all your previous snips, welcome will be lost.)"
+        descript = "A Logger Group For RadhaUserBot.Don't delete this group or change to group(If you change group all your previous snips, welcome will be lost.)"
         _, groupid = await create_supergroup(
-            "LegendBot Logger", legend, Config.BOT_USERNAME, descript
+            "RadhaUserBot Logger", radha, Config.BOT_USERNAME, descript
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
