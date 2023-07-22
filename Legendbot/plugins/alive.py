@@ -116,11 +116,11 @@ async def amireallyalive(event):
 
 edit_time = 12
 """ =======================CONSTANTS====================== """
-file1 = "https://te.legra.ph/file/2426eab17330c6e6310ea.mp4"
-file2 = "https://te.legra.ph/file/11ec9dd576ee5536125b2.jpg"
-file3 = "https://te.legra.ph/file/d2a5265abdc4e73af1f94.jpg"
-file4 = "https://telegra.ph/file/b6f0c65a337b1f2609d07.jpg"
-file5 = "https://telegra.ph/file/af51de2749a4506d3eb43.jpg"
+file1 = "https://te.legra.ph/file/604164582de2704238d3d.mp4"
+file2 = "https://te.legra.ph/file/95643ea0976f9298452cf.jpg"
+file3 = "https://te.legra.ph/file/79983417d1eec823100dc.jpg"
+file4 = "https://te.legra.ph/file/604164582de2704238d3d.mp4"
+file5 = "https://te.legra.ph/file/95643ea0976f9298452cf.jpg"
 """ =======================CONSTANTS====================== """
 pm_caption = f"**LegendBot Is Up**\n"
 pm_caption += f"**╭────────────**\n"
