@@ -94,10 +94,10 @@ async def bot_start(event):
         if customstrmsg is not None:
             buttons = [
                 (
-                    Button.inline("🔰 Rules 🔰", data="rules"),
-                    Button.inline("❤ Deploy ❤", data="depy"),
+                    Button.inline("Rules 😒", data="rules"),
+                    Button.inline("Deploy ⚡", data="depy"),
                 ),
-                (Button.url("🔱 Support 🔱", "https://t.me/LegendBot_OP"),),
+                (Button.url("Support ❤️", "https://t.me/LegendBot_OP"),),
             ]
             start_msg = customstrmsg.format(
                 mention=mention,
@@ -116,10 +116,10 @@ async def bot_start(event):
             start_msg = f"Hey! 👤{mention},\nI am {my_mention}'s assistant bot.\nYou can contact to my master from here.\n\nPowered by [LegendBot](https://t.me/LegendBot_OP)"
             buttons = [
                 (
-                    Button.inline("🔰 Rules 🔰", data="rules"),
-                    Button.inline("❤ Deploy ❤", data="depy"),
+                    Button.inline("Rules 😒", data="rules"),
+                    Button.inline("Deploy ⚡", data="depy"),
                 ),
-                (Button.url("🔱 Support 🔱", "https://t.me/LegendBot_OP"),),
+                (Button.url("Support ❤️", "https://t.me/LegendBot_OP"),),
             ]
     else:
         start_msg = f"Hey {mention} I am your {my_mention}'s assistant bot.\nI Am Here To Help U \n\nPowered By [LegendBot](https://t.me/LegendBot_OP)"
