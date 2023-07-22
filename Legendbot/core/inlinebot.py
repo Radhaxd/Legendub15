@@ -91,7 +91,7 @@ def main_menu():
         ],
         [
             custom.Button.inline("⚜ Alive ⚜", data="stats"),
-            Button.url("Support 🇮🇳", "https://t.me/LegendBot_AI"),
+            Button.url("Support 🇮🇳", "https://t.me/https://t.me/RadhaX2Support"),
         ],
         [custom.Button.inline("❌", data="clise")],
     ]
@@ -250,7 +250,7 @@ async def inline_handler(event):  # sourcery no-metrics
                 (Button.url(f"{ALIVE_NAME}", f"tg://openmessage?user_id={USERID}"),),
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("Repo", "https://github.com/ITS-LEGENDBOT/LEGENDBOT"),
+                    Button.url("Repo", "https://github.com/RADHAK8/RADHA-USERBOT"),
                 ),
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
