@@ -3,16 +3,16 @@ from sample_config import Config
 
 class Development(Config):
     # get this values from the my.telegram.org
-    APP_ID = 10940339
-    API_HASH = "4cdbbcc7a57756127b1f3df13a7ee175"
+    APP_ID = 23616438
+    API_HASH = "5e18eb26670d22c6e10cdfa6f3d47853"
     # the name to display in your alive message
     ALIVE_NAME = "RadhaUserBot"
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
     DB_URI = "postgres://xhagcmjv:RcihLUmDeUm5X8oZwsr5iaesaVrBxxXi@mahmud.db.elephantsql.com/xhagcmjv"
     # After cloning the repo and installing requirements do python3 telesetup.py an fill th this
-    LEGEND_STRING = "1AZWarzYBu1I7L5wVNc_ShdZBulrEMlXTg9gXRZAMA7M4gZsslG2it1dvnvNf2sS9-cXTyuEuaCAG-STLcGg--6BzXzbT0fo2xUfiSAg-XtEvtXkL4CDytFCNAQqrN7uw2FuezdXXwn-Sl5I5HI9TaLBjvNN1e_T5elJt4M741wXvgRyvv3vVMGpr8Tvh6nBz9-KxEiVZ_PQrx8tfGJV17K4uH9aprpeGN4n3uMulmgj6PSmYzKZ56RWoOjK3fCgPfqhl3G7xjlKAqF-7ToqB3j23fnhLJtSaCNO708ntl1lGO5eIhN2_Hoonc2LiyTcQVt8vh4RMBCYE1bL39t9qm-1O8f4u7Jg="
+    LEGEND_STRING = "1BJWap1wBu69MbjrIkpxf7C0Giv8SIOfQJZ2bO1lWqnwP8s6hqzieTKSiPDReTVwqYfSmKBG-IcqKpKyaT6yZ4DWQ2AZViYte3IBKVuNlUz61IoMc3VmD6eRe8_w044pwXPKfwg4dyeOIbyV11RMgdMV4Rf0nLTb8KAQwtXhM9q9Z0xc5wnt94tJNcUGZ2-wzJb3ErcSlL8YdKyM0cXI-aSMDZBummn1r4APoPYezkyKv-5wTU5SOAS2KQcr-WmP1pA9SWAZRb3HSkaIPUqOhh1Y9uUMFrjacaIOgmswIe03vQDJWo23SSQiyUoF1BUQesVPCKydDNSzVe0dXL6wUuHLsxZMwgjQ="
     # create a new bot in @botfather and fill the following vales with bottoken
-    BOT_TOKEN = "6012629686:AAHOfgIMs6jvRk360SxLy8jylDQQIJxFA5c"
+    BOT_TOKEN = "6012629686:AAHzVlwVkKht7NQaFEA_do8gDDcYmRn2AqY"
     # command handler
     HANDLER = "."
     # command hanler for sudo
