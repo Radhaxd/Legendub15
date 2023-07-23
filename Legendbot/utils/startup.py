@@ -264,7 +264,7 @@ async def verifyLoggerGroup():
         type = True
     if PM_LOGGER_GROUP_ID != -100:
         try:
-            entity = await legend.get_entity(PM_LOGGER_GROUP_ID)
+            entity = await radha.get_entity(PM_LOGGER_GROUP_ID)
             if not isinstance(entity, types.User) and not entity.creator:
                 if entity.default_banned_rights.send_messages:
                     LOGS.info(
