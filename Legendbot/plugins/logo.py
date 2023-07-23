@@ -228,7 +228,7 @@ async def lg1(event):
             stroke_width=0,
             stroke_fill=None,
         )
-    file_name = "LEGENDBOT.png"
+    file_name = "RADHAUSERBOT.png"
     img.save(file_name, "png")
     await event.client.send_file(
         event.chat_id,
