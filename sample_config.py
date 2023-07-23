@@ -29,7 +29,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required legend repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/LEGEND-AI/LEGENDUSERBOT"
+        "UPSTREAM_REPO", "https://github.com/Radhak8/legendub"
     )
     # BASIC and MAIN CONFIG VARS
     # for profile default name
