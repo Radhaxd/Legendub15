@@ -62,7 +62,7 @@ async def variable(var):  # sourcery no-metrics
             legend = "**ConfigVars**:" f"\n\n {variable} = `{heroku_var[variable]}`\n"
             if "LEGEND_STRING" in variable:
                 await eor(
-                    var, "Legend String is a Sensetive Data.\nProtected By LegendBot"
+                    var, "Radha String is a Sensetive Data.\nProtected By RadhaUserbot"
                 )
                 return
             elif variable in heroku_var:
