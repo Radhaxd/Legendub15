@@ -93,7 +93,7 @@ async def _(event):
             "{tr}bots <username/userid>",
             "{tr}bots <in group where you need>",
         ],
-        "examples": "{tr}bots @LegendBot_AI",
+        "examples": "{tr}bots @RadhaX2Support",
     },
 )
 async def _(event):
@@ -197,7 +197,7 @@ async def get_users(show):
             "{tr}chatinfo <username/userid>",
             "{tr}chatinfo <in group where you need>",
         ],
-        "examples": "{tr}chatinfo @LegendBot_AI",
+        "examples": "{tr}chatinfo @RadhaX2Support",
     },
 )
 async def info(event):
