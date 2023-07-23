@@ -255,7 +255,7 @@ async def verifyLoggerGroup():
     else:
         descript = "A Logger Group For RadhaUserBot.Don't delete this group or change to group(If you change group all your previous snips, welcome will be lost.)"
         _, groupid = await create_supergroup(
-            "RadhaUserBot Logger", radha, Config.BOT_USERNAME, descript
+            "RadhaUserBot Logger", legend, Config.BOT_USERNAME, descript
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
@@ -264,7 +264,7 @@ async def verifyLoggerGroup():
         type = True
     if PM_LOGGER_GROUP_ID != -100:
         try:
-            entity = await radha.get_entity(PM_LOGGER_GROUP_ID)
+            entity = await legend.get_entity(PM_LOGGER_GROUP_ID)
             if not isinstance(entity, types.User) and not entity.creator:
                 if entity.default_banned_rights.send_messages:
                     LOGS.info(
